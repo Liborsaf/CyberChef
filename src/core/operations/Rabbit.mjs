@@ -40,6 +40,11 @@ class Rabbit extends Operation {
                 "toggleValues": ["Hex", "UTF8", "Latin1", "Base64"]
             },
             {
+                "name": "OpenSSL",
+                "type": "option",
+                "value": ["None", "CBC", "ECB", "CFB", "CTR", "OFB"]
+            },
+            {
                 "name": "Endianness",
                 "type": "option",
                 "value": ["Big", "Little"]
